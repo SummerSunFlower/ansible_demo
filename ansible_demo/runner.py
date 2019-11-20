@@ -4,13 +4,13 @@ import os
 import shutil
 from collections import namedtuple
 
-# from ansible import context
-# from ansible.module_utils.common.collections import ImmutableDict
-# from ansible.executor.task_queue_manager import TaskQueueManager
-# from ansible.vars.manager import VariableManager
-# from ansible.parsing.dataloader import DataLoader
-# from ansible.executor.playbook_executor import PlaybookExecutor
-# from ansible.playbook.play import Play
+from ansible import context
+from ansible.module_utils.common.collections import ImmutableDict
+from ansible.executor.task_queue_manager import TaskQueueManager
+from ansible.vars.manager import VariableManager
+from ansible.parsing.dataloader import DataLoader
+from ansible.executor.playbook_executor import PlaybookExecutor
+from ansible.playbook.play import Play
 import ansible.constants as C
 
 from .callback import (

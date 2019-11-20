@@ -6,7 +6,7 @@ import unittest
 
 
 sys.path.insert(0, '../..')
-from ops.ansible.inventory import BaseInventory
+from ansible_demo.inventory import BaseInventory
 
 
 class TestJMSInventory(unittest.TestCase):

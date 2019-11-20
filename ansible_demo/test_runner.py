@@ -6,8 +6,8 @@ import sys
 
 sys.path.insert(0, "../..")
 
-from ops.ansible.runner import AdHocRunner, CommandRunner
-from ops.ansible.inventory import BaseInventory
+from ansible_demo.runner import AdHocRunner, CommandRunner
+from ansible_demo.inventory import BaseInventory
 
 
 class TestAdHocRunner(unittest.TestCase):
